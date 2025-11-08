@@ -1,0 +1,1 @@
+My name is Joseph. This is my first Git Project assignment.
