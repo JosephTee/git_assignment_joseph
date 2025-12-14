@@ -1,5 +1,8 @@
 def greet_user(name):
     """Display a simple greeting."""
     return f"Hello! {name.upper()}"
-joy = greet_user('John')
-print(joy)
+
+def build_person(first_name, last_name):
+    person = {'first': first_name, 'last': last_name}
+    return person
+ 

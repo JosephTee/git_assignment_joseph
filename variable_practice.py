@@ -1,4 +1,4 @@
-lst= list(range(20,25))
+lst = list(range(20,25))
 print(f"The range trial gives you {lst}")
 
 # Task 1: Variables and Operations
@@ -80,4 +80,5 @@ second_number = float(input("Enter your second number: "))
 Operation = input("Which operation are you doing! enter: +, -, *, /")
 if Operation == "+":
     print(first_number + second_number)
+
 
