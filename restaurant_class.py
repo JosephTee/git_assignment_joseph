@@ -22,4 +22,3 @@ print(f"We sell {restaurant_from_my_school.cuisine_type} meal here!")
 print()
 restaurant_from_my_school.describe_restaurant()
 restaurant_from_my_school.open_restaurant()
-
