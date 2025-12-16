@@ -8,10 +8,10 @@ from restaurant_class import Restaurant
 class IceCreamStand(Restaurant):
     def __init__(self, restaurant_name, cuisine_type, flavors = None):
         super().__init__(restaurant_name, cuisine_type)
-        self.flavors = []
+        self.flavors = flavors if flavors is not None else []
     def show_flavors(self):
-        return f"We serve: {self.flavors}."
+        return f"We serve: {', '.join(self.flavors)}"
     
 my_meal = IceCreamStand('John', 'garri', ['vanilla', 'banana', 'mango'])
-print(my_meal.show_flavors)
+print(my_meal.show_flavors())
 
