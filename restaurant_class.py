@@ -17,16 +17,11 @@ class Restaurant:
 
 if __name__ == '__main__':
     restaurant_from_my_class = Restaurant('Country Kitchen', 'Fast food')
-    print(f"My restaurant name is: {restaurant_from_my_class.restaurant_name}")
-    print(f"We sell {restaurant_from_my_class.cuisine_type} meal here!")
     print()
     restaurant_from_my_class.describe_restaurant()
     restaurant_from_my_class.open_restaurant()
     print()
-    print()
     restaurant_from_my_school = Restaurant('Captain Cook', 'Bread and Beans')
-    print(f"My restaurant name is: {restaurant_from_my_school.restaurant_name}")
-    print(f"We sell {restaurant_from_my_school.cuisine_type} meal here!")
     print()
     restaurant_from_my_school.describe_restaurant()
     restaurant_from_my_school.open_restaurant()
